@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: #f6f6f6;
+  max-width: 100%;
+  margin: auto;
+}
+
+.container .get-repos {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+.get-repos input {
+  width: 60%;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 22px;
+  height: 44px;
+}
+
+.get-btn {
+  padding: 10px;
+  background: #f44336;
+  color: #fff;
+  font-weight: bold;
+  height: 44px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.show-data {
+  background: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+}
+.data {
+  padding: 20px;
+  background: #fff;
+  margin: 10px;
+}
